@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>home</title>
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+</head>
+<body>
+　　<div id="title">
+		<h2>英単語帳</h2>
+	</div>
+
+	<div class="blank"></div>
+
+	<div id="list">
+		<form name="list" action="../list/list.php" method="post">
+			<input type="submit" value="一覧">
+		</form>
+	</div>
+
+	<div class="blank"></div>	
+
+	<div id="search">
+		<form name="search" action="../search/search.php" method="post">
+			<div id="japanese">
+				<input type="radio" name="language" value="japanese" checked="checked">日→英
+			</div>
+
+			<div id="english">
+				<input type="radio" name="language" value="english">英→日
+			</div>
+			
+			<input type="text" name="search">
+			<input type="submit" value="検索">
+		</form>
+	</div>
+
+	<div class="floatclear"></div>
+
+	<div class="blank"></div>
+
+	<div id="add">
+		<form name="add" action="../add/add_check.php" method="post">
+			英<input type="text" name="add_english"><br>
+			日<input type="text" name="add_japanese"><br>
+			<input type="submit" value="追加">
+		</form>	
+	</div>
+</body>
+</html>

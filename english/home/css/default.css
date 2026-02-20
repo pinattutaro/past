@@ -1,0 +1,39 @@
+#title {
+	width: 250px;
+	text-align: center;	
+	background: #adff2f;
+}
+
+#list {
+	width: 250px;
+	text-align: center;
+}
+
+#search {
+	width: 250px;
+	text-align: center;	
+}
+
+#japanese {
+	width: 125px;
+	text-align: center;
+	float: left;
+}
+
+#english {
+	width: 125px;
+	text-align: center;
+	float: left;
+}
+
+#add {
+	width: 250px;
+	text-align: center;	
+}
+
+.blank {
+	width: 250px;
+	height: 20px;
+}
+
+.flostclear {clear: both;}

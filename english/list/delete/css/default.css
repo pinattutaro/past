@@ -1,0 +1,32 @@
+#title {
+	color: #ff0000;
+	width: 400px;
+	text-align: center;
+}
+
+#contents {
+	width: 400px;
+	height: 200px;
+}
+
+.language {
+	width: 200px;
+	text-align: center;
+	float: left;
+	background-color: #adff2f;
+}
+
+.word {
+	width: 200px;
+	text-align: center;
+	float: left;
+	color: #ffa500;
+}
+
+.button {
+	width: 100px;
+	text-align: center;
+	float: left;
+}
+
+.floatclear {clear: both;}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>login</title>
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+</head>
+<body>
+	<div class="blank_0"></div>
+
+	<div class="body">
+	　　<!--タイトル-->
+		<div class="title">
+			LIME
+		</div>
+
+		<!--入力欄-->
+		<div class="field">
+			<form action="personal_page.php" method="post">
+				<!--メールアドレス-->
+				<div class="text">
+					メールアドレス<br>
+					<input type="text" name="mail" required>
+				</div>
+
+				<!--パスワード-->
+				<div class="text">
+					パスワード<br>
+					<input type="password" name="pass" required>
+				</div>
+
+				<!--空白-->
+				<div class="blank_1"></div>
+
+				<!--ログイン-->
+				<div class="button"> 
+					<input type="submit" value="ログイン">
+				</div>
+			</form>
+		</div>
+
+		<!--空白-->
+		<div class="blank_1"></div>
+
+		<!--新規登録-->
+		<div class="button">
+			<form action="sign.php" method="post">
+				<input type="submit" value="新規登録">
+			</form>
+		</div>
+	</div>
+
+	<div class="floatclear"></div>
+</body>
+</html>

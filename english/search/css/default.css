@@ -1,0 +1,28 @@
+#body {
+	width: 200px;
+}
+
+#title {
+	width: 200px;
+	text-align: center;
+	color: #ff0000;
+}
+
+#blank {
+	width: 200px;
+}
+
+#mean {
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#content {
+	width: 200px;
+}
+
+#button {
+	width: 100px;
+	text-align: center;
+}
