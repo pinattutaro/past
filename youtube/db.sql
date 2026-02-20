@@ -1,0 +1,25 @@
+CREATE DATABASE IF NOT EXISTS db_youtube CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE db_youtube;
+
+CREATE TABLE tb_member (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    mail VARCHAR(100) NOT NULL,
+    pass VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE tb_contents (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    content VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    owner_id INT NOT NULL,
+    state VARCHAR(20) DEFAULT NULL
+);
+
+CREATE TABLE tb_chat (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user VARCHAR(100) NOT NULL,
+    video_id INT NOT NULL,
+    sentence TEXT NOT NULL,
+    date VARCHAR(100) NOT NULL
+);

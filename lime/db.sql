@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS db_lime CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE db_lime;
+
+CREATE TABLE tb_lime (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    mail VARCHAR(100) NOT NULL,
+    pass VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE tb_chat (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    from_id INT NOT NULL,
+    to_id INT NOT NULL,
+    message TEXT NOT NULL,
+    date VARCHAR(20) NOT NULL
+);
